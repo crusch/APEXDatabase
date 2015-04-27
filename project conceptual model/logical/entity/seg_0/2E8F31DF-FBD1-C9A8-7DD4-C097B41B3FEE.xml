@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E8F31DF-FBD1-C9A8-7DD4-C097B41B3FEE" name="File">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:15:40 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="File ID" id="12F6C118-AF93-6FEA-B608-B9322DD3AC89">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:18:25 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="File Name" id="223481EE-3436-CA8D-FF0A-61FC498F2C7A">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:18:30 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Description" id="CD2D124E-F8D9-4CED-86C5-7C0308B46F3D">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:18:33 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="ID" id="7AD82C55-37B6-C9AE-C8E9-B21C4A9BA80E">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:18:52 UTC</createdTime>
+<generatorID>9549C929-4BC1-397F-4186-029FD5652C17</generatorID>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<referedAttribute>AB0EB910-8BA0-6F15-28CF-B6366F513B4D</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="026F70C4-D24C-A757-B288-FB6E77BB3DF1" name="{entity} PK">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:18:28 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12F6C118-AF93-6FEA-B608-B9322DD3AC89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

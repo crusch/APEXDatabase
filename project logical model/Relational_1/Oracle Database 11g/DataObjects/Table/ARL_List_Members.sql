@@ -1,0 +1,7 @@
+CREATE TABLE ARL_List_Members
+  (
+    ARL_NL_EID  INTEGER NOT NULL ,
+    ARL_NL_LID  INTEGER NOT NULL ,
+    ARL_NL_MLID INTEGER NOT NULL ,
+    date_added  DATE
+  ) ;

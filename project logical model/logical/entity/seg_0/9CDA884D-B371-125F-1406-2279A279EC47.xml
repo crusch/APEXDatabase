@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CDA884D-B371-125F-1406-2279A279EC47" name="ARL_List_Members">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-03-29 22:23:03 UTC</createdTime>
+<ownerDesignName>project logical model</ownerDesignName>
+<engineerTo>
+<item key="0D79715C-4C4C-B188-66CE-DC69DD480F1B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="emp_id" id="8A98C3AA-B03D-9968-9246-1DAC9859C3B7">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-03-29 22:34:04 UTC</createdTime>
+<generatorID>27614C01-920C-28C8-139A-A71C3CFBB4FC</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<engineerTo>
+<item key="0D79715C-4C4C-B188-66CE-DC69DD480F1B" value="true"/>
+</engineerTo>
+<referedAttribute>E9760914-818E-BC5B-316D-08929B80D40C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="list_id" id="412ACEAF-C9E6-4A0B-CB9C-BD2A6C8A1553">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-03-29 22:39:49 UTC</createdTime>
+<generatorID>281B6918-14D0-CAEE-5AE3-B23890051BC4</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<engineerTo>
+<item key="0D79715C-4C4C-B188-66CE-DC69DD480F1B" value="true"/>
+</engineerTo>
+<referedAttribute>D2064B45-411C-6727-732C-53C23C016239</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="list_id1" id="BC10379B-E996-4A72-A2AE-6AE1091C7E47">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-11 17:45:04 UTC</createdTime>
+<generatorID>DEF7A03D-0F94-18B0-5000-57D88C928B36</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<engineerTo>
+<item key="0D79715C-4C4C-B188-66CE-DC69DD480F1B" value="true"/>
+</engineerTo>
+<referedAttribute>D2064B45-411C-6727-732C-53C23C016239</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="date_added" id="A575EB5D-79BC-0B02-8FB8-2A6C81ADE464">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-11 18:13:38 UTC</createdTime>
+<ownerDesignName>project logical model</ownerDesignName>
+<engineerTo>
+<item key="0D79715C-4C4C-B188-66CE-DC69DD480F1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

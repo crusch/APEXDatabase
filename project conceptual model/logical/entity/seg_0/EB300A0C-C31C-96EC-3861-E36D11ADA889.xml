@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB300A0C-C31C-96EC-3861-E36D11ADA889" name="Employee">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:14:36 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="AB0EB910-8BA0-6F15-28CF-B6366F513B4D">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:17:27 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Name" id="0371856D-6C54-50EA-4999-CC70E12B18FF">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:17:30 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Lab" id="B936440E-82AE-673A-1835-E6ADDD5C665C">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:17:33 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Division" id="8B4B50B2-0FCE-B646-CFE3-EBB53ED609FF">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:17:36 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Status" id="464BF3E0-709D-2F54-8DCD-E377266AFEF8">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:17:43 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Status Effective Date" id="F4A4CD35-6253-9B45-4955-6AA67B2EA05D">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:18:03 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5135E9FC-D115-84E9-8AA1-E23C48CEBC88" name="{entity} PK">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-27 20:18:52 UTC</createdTime>
+<ownerDesignName>project conceptual model</ownerDesignName>
+<engineerTo>
+<item key="C4156D70-8C0D-6837-612E-771A45D141EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB0EB910-8BA0-6F15-28CF-B6366F513B4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77653599-B043-4356-1511-CBD695F8B3B6" name="ARL_List_Members">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>9CDA884D-B371-125F-1406-2279A279EC47</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARL_NL_EID" id="2ED90DE7-411D-E530-F22C-486A77C1F691">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>8A98C3AA-B03D-9968-9246-1DAC9859C3B7</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2FC6A459-20A6-F8F2-0A31-0AF50EC44C91</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6902AA6-77C5-28F2-5336-11878316B262" referredColumn="2FC6A459-20A6-F8F2-0A31-0AF50EC44C91"/>
+</associations>
+</Column>
+<Column name="ARL_NL_LID" id="DD2824EB-B66D-7B33-78FC-153CEA109B07">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>412ACEAF-C9E6-4A0B-CB9C-BD2A6C8A1553</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CBDC2F0E-1A27-9126-634B-4BE2FE8BB421</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9564469-140A-8737-9EF4-F4D9754E330F" referredColumn="CBDC2F0E-1A27-9126-634B-4BE2FE8BB421"/>
+</associations>
+</Column>
+<Column name="ARL_NL_MLID" id="CC3C3B59-2251-7E05-2614-B5308C1EE807">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>BC10379B-E996-4A72-A2AE-6AE1091C7E47</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CBDC2F0E-1A27-9126-634B-4BE2FE8BB421</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9032F29D-F72F-74BB-BBA4-9963F70214DD" referredColumn="CBDC2F0E-1A27-9126-634B-4BE2FE8BB421"/>
+</associations>
+</Column>
+<Column name="date_added" id="1E3B5D2F-4B8A-0687-8E5D-1C927BD1FDDC">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>A575EB5D-79BC-0B02-8FB8-2A6C81ADE464</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01AFC568-F4B0-1732-3566-A276ECE0329D" name="ARL_List_Members_ARL_NL_FK">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>281B6918-14D0-CAEE-5AE3-B23890051BC4</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD2824EB-B66D-7B33-78FC-153CEA109B07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78F11172-6655-1179-4551-6C194E04AD92" name="ARL_List_Members_ARL_NL_FKv1">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>DEF7A03D-0F94-18B0-5000-57D88C928B36</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC3C3B59-2251-7E05-2614-B5308C1EE807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BDDDCE8-3564-52B7-B6CB-6C77DF745927" name="ARL_List_Members_ARL_Emp_FK">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>27614C01-920C-28C8-139A-A71C3CFBB4FC</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ED90DE7-411D-E530-F22C-486A77C1F691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

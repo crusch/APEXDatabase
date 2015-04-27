@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="874A5F00-15E1-13A6-9A70-2ADC08A025E5" name="ARL_NL">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>2F6A85A9-D14C-17D4-87BF-3FAC656F1695</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="list_id" id="CBDC2F0E-1A27-9126-634B-4BE2FE8BB421">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>D2064B45-411C-6727-732C-53C23C016239</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_name" id="72B85602-96CB-858F-8BF0-1D7B0A5D9C2E">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>3B1EEDDE-3271-FF76-A3DB-ABAF94FDB1A3</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_description" id="D7D48CC1-CEA0-E462-D9FF-596A5A6EB80D">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>130543D6-A16A-4835-E965-7ACD4F2EA1C3</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="owner_div_code" id="CB62D766-BFDF-4428-87F4-E1728D8E46E7">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>29D5930E-A14B-C326-FBC4-C32D56CE930B</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="extl_view_name" id="36887154-062D-D0BD-4AD0-2BD07955C738">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>FDBAB5A3-9C7A-0FC8-9F73-6A48B0746108</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_status" id="CF7C5F44-3F98-0B49-17EA-0A979CFEBA86">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>5BD288EA-1074-C26D-0789-BDCFF7CE3071</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="8D6ECC7B-2451-E8D1-A47E-CB7ED26F3B24">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>C97C202D-DCC0-6C10-0E9A-79B89B9B2C32</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_eff_date" id="4F287957-FBD2-C3F5-E567-97731E58489C">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>6251D0AA-5A93-380A-6D79-BA42025D0CC6</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E5C9097-A4E1-579B-F739-1DB1E1E49643" name="ARL_NL_PK">
+<createdBy>Chelsea</createdBy>
+<createdTime>2015-04-20 00:45:16 UTC</createdTime>
+<generatorID>D93E9123-FF93-5599-7FFE-8D199A8FC483</generatorID>
+<ownerDesignName>project logical model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBDC2F0E-1A27-9126-634B-4BE2FE8BB421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
