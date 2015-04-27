@@ -1,2 +1,0 @@
-# CS347DB
-project
