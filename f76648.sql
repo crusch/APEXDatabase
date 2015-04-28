@@ -27,7 +27,7 @@ prompt APPLICATION 76648 - ARL_Notice_List Project
 -- Application Export:
 --   Application:     76648
 --   Name:            ARL_Notice_List Project
---   Date and Time:   05:15 Tuesday April 28, 2015
+--   Date and Time:   16:48 Tuesday April 28, 2015
 --   Exported By:     CHELSEARUSCH@UTEXAS.EDU
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -110,7 +110,7 @@ wwv_flow_api.create_flow(
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
 ,p_last_updated_by=>'CHELSEARUSCH@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20150428051345'
+,p_last_upd_yyyymmddhh24miss=>'20150428164104'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
@@ -8590,7 +8590,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'CHELSEARUSCH@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20150425195742'
+,p_last_upd_yyyymmddhh24miss=>'20150428164104'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(2450952239067440145)
@@ -8604,8 +8604,8 @@ wwv_flow_api.create_page_plug(
 'SELECT UNIQUE LIST_ID, LIST_NAME, LIST_DESCRIPTION, OWNER_DIV_CODE, EXTL_VIEW_NAME, ',
 'LIST_STATUS, CREATION_DATE, ARL_NL.STATUS_EFF_DATE',
 'FROM ARL_NL FULL OUTER JOIN EMPLOYEE_USER ON EMP_DIVISION = OWNER_DIV_CODE',
-'WHERE user_name = v(''APP_USER'') OR',
-'(SELECT is_admin FROM employee_user WHERE user_name = v(''APP_USER'')) = ''Y'' AND list_id IS NOT NULL;'))
+'WHERE UPPER(user_name) = v(''APP_USER'') OR',
+'(SELECT is_admin FROM employee_user WHERE UPPER(user_name) = v(''APP_USER'')) = ''Y'' AND list_id IS NOT NULL;'))
 ,p_plug_source_type=>'NATIVE_IR'
 ,p_plug_query_row_template=>1
 ,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
