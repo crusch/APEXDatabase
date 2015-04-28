@@ -27,7 +27,7 @@ prompt APPLICATION 76648 - ARL_Notice_List Project
 -- Application Export:
 --   Application:     76648
 --   Name:            ARL_Notice_List Project
---   Date and Time:   21:41 Monday April 27, 2015
+--   Date and Time:   05:15 Tuesday April 28, 2015
 --   Exported By:     CHELSEARUSCH@UTEXAS.EDU
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -109,8 +109,8 @@ wwv_flow_api.create_flow(
 ,p_browser_frame=>'D'
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
-,p_last_updated_by=>'DKLEIN'
-,p_last_upd_yyyymmddhh24miss=>'20150427213951'
+,p_last_updated_by=>'CHELSEARUSCH@UTEXAS.EDU'
+,p_last_upd_yyyymmddhh24miss=>'20150428051345'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
@@ -8443,7 +8443,7 @@ wwv_flow_api.create_page(
 ,p_protection_level=>'D'
 ,p_cache_mode=>'NOCACHE'
 ,p_last_updated_by=>'CHELSEARUSCH@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20150427212020'
+,p_last_upd_yyyymmddhh24miss=>'20150428051345'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3551623034990516933)
@@ -8466,7 +8466,7 @@ wwv_flow_api.create_page_plug(
 '      SELECT :APP_USER INTO current_user FROM dual;',
 '   END IF;   ',
 '   ',
-'   SELECT is_admin INTO admin_status FROM arl_emp WHERE emp_name = :APP_USER;',
+'   SELECT is_admin INTO admin_status FROM arl_emp WHERE UPPER(emp_name) = :APP_USER;',
 '   IF(admin_status = ''Y'' OR admin_status = ''y'') THEN',
 '      print_status := ''admin'';',
 '   ELSE',
